@@ -145,7 +145,25 @@ Final Score =
 * Database Integration
 * Cloud Deployment (AWS/Azure)
 
----
+## Sample Output
+
+{
+  "final_match_score": 84.63,
+  "skill_match_score": 84.61,
+  "tfidf_score": 31.71,
+  "experience_score": 100,
+  "matched_skills": [
+    "python",
+    "sql",
+    "machine learning"
+  ],
+  "missing_skills": [
+    "aws"
+  ],
+  "resume_experience": 1,
+  "jd_experience": 0,
+  "explanation": "Resume matched 11 out of 13 required skills."
+}
 
 ## Author
 
